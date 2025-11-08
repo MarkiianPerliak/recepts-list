@@ -1,10 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import BurgerImg from "../img/burger.jpeg";
+import ChickenImg from "../img/chicken.jpg";
+import PotatoImg from "../img/potato.webp";
+import TomatoImg from "../img/tomato.webp";
 
 export const List = () => {
     const listItems = [
         {
-            img: "../img/burger.jpg",
+            img: BurgerImg,
             name: "Smoked salmon burger",
             types: [
                 {
@@ -25,7 +29,7 @@ export const List = () => {
             ]
         },
         {
-            img: "../img/tomato.webp",
+            img: TomatoImg,
             name: "Tomatoes With Creamy Feta",
             types: [
                 {
@@ -46,7 +50,7 @@ export const List = () => {
             ]
         },
         {
-            img: "../img/potato.webp",
+            img: PotatoImg,
             name: "Spicy potato salad",
             types: [
                 {
@@ -67,7 +71,7 @@ export const List = () => {
             ]
         },
         {
-            img: "../img/chicken.jpg",
+            img: ChickenImg,
             name: "Chicken Biryani",
             types: [
                 {
@@ -127,7 +131,7 @@ export const List = () => {
 
 const ListWrapper = styled.ul`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
   list-style: none;
     background: #fff8f0;
@@ -135,6 +139,10 @@ const ListWrapper = styled.ul`
 `;
 
 const ListItem = styled.li`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
   padding: 16px;
   width: 250px;
   text-align: center;
@@ -142,6 +150,7 @@ const ListItem = styled.li`
 
 const FoodImage = styled.img`
   border-radius: 16px;
+  width: 400px;
 `;
 
 const FoodName = styled.h3`
