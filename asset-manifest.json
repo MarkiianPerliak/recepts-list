@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/recepts-list/static/css/main.ca79be3f.css",
-    "main.js": "/recepts-list/static/js/main.f32dbc68.js",
+    "main.js": "/recepts-list/static/js/main.b2ffb25d.js",
     "static/media/potato.webp": "/recepts-list/static/media/potato.30cca074452af29e616a.webp",
     "static/media/tomato.webp": "/recepts-list/static/media/tomato.a9d069cf5aada2063a4d.webp",
     "static/media/burger.jpeg": "/recepts-list/static/media/burger.8fb01a9ed15b0e464228.jpeg",
     "static/media/chicken.jpg": "/recepts-list/static/media/chicken.3c0828b5e90954c47126.jpg",
     "index.html": "/recepts-list/index.html",
     "main.ca79be3f.css.map": "/recepts-list/static/css/main.ca79be3f.css.map",
-    "main.f32dbc68.js.map": "/recepts-list/static/js/main.f32dbc68.js.map"
+    "main.b2ffb25d.js.map": "/recepts-list/static/js/main.b2ffb25d.js.map"
   },
   "entrypoints": [
     "static/css/main.ca79be3f.css",
-    "static/js/main.f32dbc68.js"
+    "static/js/main.b2ffb25d.js"
   ]
 }
