@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recepts-list/static/css/main.dfcb7383.css",
+    "main.js": "/recepts-list/static/js/main.6a4fafca.js",
+    "index.html": "/recepts-list/index.html",
+    "main.dfcb7383.css.map": "/recepts-list/static/css/main.dfcb7383.css.map",
+    "main.6a4fafca.js.map": "/recepts-list/static/js/main.6a4fafca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfcb7383.css",
+    "static/js/main.6a4fafca.js"
+  ]
+}
