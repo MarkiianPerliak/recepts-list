@@ -131,8 +131,8 @@ export const List = () => {
 
 const ListWrapper = styled.ul`
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: center;
+  gap: 250px;
   list-style: none;
     background: #fff8f0;
   padding: 0;
